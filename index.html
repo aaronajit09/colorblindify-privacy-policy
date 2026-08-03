@@ -1,97 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ColorBlindify - Privacy Policy</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Colorblind-Tune</title>
+<meta name="description" content="Colorblind-Tune privacy policy: what data the extension does (and does not) touch, in plain language.">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>ColorBlindify</h1>
-            <p class="subtitle">Privacy Policy</p>
-        </header>
 
-        <main>
-            <section class="policy-section">
-                <h2>1. Overview</h2>
-                <p>ColorBlindify is designed to help you access the web with color vision correction. We build with privacy as a core principle: this extension collects zero user data and all processing happens locally on your device.</p>
-            </section>
+<div id="progress"></div>
 
-            <section class="policy-section">
-                <h2>2. Data Collection</h2>
-                <p>ColorBlindify does not collect any personal data. Your information is never transmitted to our servers or any third party. This includes:</p>
-                <ul>
-                    <li>No personal identification information</li>
-                    <li>No browsing history tracking</li>
-                    <li>No health or medical data recording</li>
-                    <li>No analytics or usage tracking</li>
-                    <li>No IP addresses or location data</li>
-                </ul>
-            </section>
+<header class="site">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <img src="assets/icon.png" alt="Colorblind-Tune icon">
+      Colorblind-Tune
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"></button>
+    <nav class="links" id="navLinks">
+      <a href="#overview">Overview</a>
+      <a href="#data">Data</a>
+      <a href="#permissions">Permissions</a>
+      <a href="#storage">Storage</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
 
-            <section class="policy-section">
-                <h2>3. Local Settings</h2>
-                <p>The extension saves only your chosen settings to your device using Chrome's local storage:</p>
-                <ul>
-                    <li>Selected color correction mode (protanopia, deuteranopia, tritanopia, or normal)</li>
-                    <li>Filter type (simulate or correct)</li>
-                    <li>Intensity setting (0.0 – 1.0)</li>
-                </ul>
-                <p>These settings sync only within your Chrome profile and never leave your device.</p>
-            </section>
+<main id="top">
 
-            <section class="policy-section">
-                <h2>4. Permissions</h2>
-                <p>ColorBlindify requests only the following permissions:</p>
-                <ul>
-                    <li><strong>Storage:</strong> To save and load your color filter preferences</li>
-                    <li><strong>Host access:</strong> To apply color corrections to pages you visit</li>
-                </ul>
-                <p>These permissions are necessary for the extension to function. No additional data is collected.</p>
-            </section>
+  <section class="hero">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
 
-            <section class="policy-section">
-                <h2>5. How It Works</h2>
-                <p>ColorBlindify operates entirely in your browser:</p>
-                <ol>
-                    <li>You take a color vision test</li>
-                    <li>The extension analyzes your responses locally</li>
-                    <li>A severity score is calculated</li>
-                    <li>You select a filter mode and adjust intensity</li>
-                    <li>Filters apply to webpages in real-time</li>
-                </ol>
-                <p>All computation happens on your device. No data is sent anywhere.</p>
-            </section>
+    <div class="eyebrow"><span class="dot"></span> Privacy Policy · Last updated August 2, 2026</div>
 
-            <section class="policy-section">
-                <h2>6. Third Parties</h2>
-                <p>ColorBlindify does not integrate with third-party services or analytics platforms. Your data is never shared externally.</p>
-            </section>
+    <div class="wheel-mark"><img src="assets/icon.png" alt="Colorblind-Tune color wheel icon"></div>
 
-            <section class="policy-section">
-                <h2>7. Security</h2>
-                <p>Since ColorBlindify does not collect user data, there is nothing to compromise. Your settings are stored securely within Chrome's encrypted sync storage, protected by your Google account.</p>
-            </section>
+    <h1 class="hero-title">We tune your colors.<br>We <span class="rainbow">don't</span> watch you do it.</h1>
+    <p class="hero-sub">Colorblind-Tune corrects and simulates color vision deficiency directly inside your browser. This page explains — in full, plain-language detail — exactly what the extension collects, stores, and shares. Short answer: almost nothing.</p>
 
-            <section class="policy-section">
-                <h2>8. Changes to This Policy</h2>
-                <p>We may update this policy as the extension evolves. Significant changes will be communicated through the Chrome Web Store.</p>
-            </section>
-
-            <section class="policy-section">
-                <h2>9. Contact</h2>
-                <p>For questions about this privacy policy, please contact us through the extension's page on the Chrome Web Store.</p>
-            </section>
-
-            <section class="policy-section footer-section">
-                <p><strong>Last updated: March 2026</strong></p>
-                <p>Questions? Visit the extension page on the Chrome Web Store for support.</p>
-            </section>
-        </main>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#overview">Read the policy ↓</a>
+      <a class="btn btn-ghost" href="mailto:aaronaajit@gmail.com">Email the developer</a>
     </div>
 
-    <script src="script.js"></script>
+    <div class="meta-row">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11Z"/></svg> Zero data collected</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Everything stays on-device</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M20 6 9 17l-5-5"/></svg> No third parties, ever</span>
+    </div>
+  </section>
+
+  <div class="content-shell">
+    <aside class="toc">
+      <div class="toc-label">On this page</div>
+      <ol id="tocList">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#data">Data we collect</a></li>
+        <li><a href="#permissions">Permissions</a></li>
+        <li><a href="#quiz">The vision quiz</a></li>
+        <li><a href="#storage">Storage & security</a></li>
+        <li><a href="#third-parties">Third parties</a></li>
+        <li><a href="#children">Children's privacy</a></li>
+        <li><a href="#changes">Changes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </aside>
+
+    <div>
+
+      <section class="card" id="overview">
+        <div class="card-head">
+          <div class="icon-chip" style="background:var(--purple)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11Z"/></svg>
+          </div>
+          <h2>Overview</h2>
+        </div>
+        <p><strong>Colorblind-Tune</strong> adjusts colors in real time so that people with red‑green, blue‑yellow, or full color vision deficiency can tell apart the things that matter — charts, traffic lights, status badges, spreadsheets. Its single purpose, as declared to the Chrome Web Store, is: <strong>"Enhance colors for colorblindness."</strong></p>
+        <p>Everything the extension does happens locally, inside your own browser. There is no backend server, no account system, and no analytics pipeline behind it. This policy documents that fact in detail rather than asking you to take our word for it.</p>
+      </section>
+
+      <section class="card" id="how-it-works">
+        <div class="card-head">
+          <div class="icon-chip" style="background:var(--blue)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg>
+          </div>
+          <h2>How the extension works</h2>
+        </div>
+        <div class="steps">
+          <div class="step"><p>When you open a webpage, a small content script injects an invisible SVG color‑matrix filter into that page's DOM.</p></div>
+          <div class="step"><p>The filter re‑maps colors mathematically — for example, boosting the red/green contrast that's hard to distinguish with deuteranomaly.</p></div>
+          <div class="step"><p>Your chosen mode (Correct or Simulate), color‑deficiency type, and intensity slider decide which matrix is applied.</p></div>
+          <div class="step"><p>None of this requires reading, copying, or transmitting the page's actual content — the filter only changes how pixels are rendered on your screen.</p></div>
+        </div>
+      </section>
+
+      <section class="card" id="data">
+        <div class="card-head">
+          <div class="icon-chip" style="background:var(--red)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/></svg>
+          </div>
+          <h2>Data we collect</h2>
+        </div>
+        <p>Per the Chrome Web Store's own disclosure categories, here is exactly what Colorblind-Tune collects from you, now or in the future:</p>
+        <div class="data-grid">
+          <div class="data-pill"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></span><span class="label">Personally identifiable info</span><span class="status">Not collected</span></div>
+          <div class="data-pill"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></span><span class="label">Health information</span><span class="status">Not collected</span></div>
+          <div class="data-pill"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></span><span class="label">Financial &amp; payment info</span><span class="status">Not collected</span></div>
+          <div class="data-pill"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></span><span class="label">Authentication info</span><span class="status">Not collected</span></div>
+          <div class="data-pill"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></span><span class="label">Personal communications</span><span class="status">Not collected</span></div>
+          <div class="data-pill"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></span><span class="label">Location</span><span class="status">Not collected</span></div>
+          <div class="data-pill"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></span><span class="label">Web history</span><span class="status">Not collected</span></div>
+          <div class="data-pill"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></span><span class="label">User activity</span><span class="status">Not collected</span></div>
+          <div class="data-pill"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></span><span class="label">Website content</span><span class="status">Not collected</span></div>
+        </div>
+        <p style="margin-top:14px">The only information Colorblind-Tune ever touches is the small settings object described under <a href="#storage">Storage &amp; security</a> — and that never leaves your own Chrome account.</p>
+      </section>
+
+      <section class="card" id="permissions">
+        <div class="card-head">
+          <div class="icon-chip" style="background:var(--orange)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="15" r="4"/><path d="M10.5 12.5 20 3M17 6l3 3M14 9l2 2"/></svg>
+          </div>
+          <h2>Permissions we request</h2>
+        </div>
+        <p>Chrome requires every extension to justify each permission it asks for. Here are ours, verbatim from what's submitted to the Chrome Web Store review team:</p>
+
+        <div class="perm">
+          <div class="perm-title"><span class="swatch" style="background:var(--blue)"></span> storage</div>
+          <p>Used to remember your chosen color mode (Correct or Simulate), filter type (protanopia, deuteranopia, or tritanopia), and intensity slider — synced privately through your own Chrome account via <code>chrome.storage.sync</code>. This ensures your preferences persist across browser sessions and devices. No personal data or browsing information is collected or transmitted to us.</p>
+        </div>
+        <div class="perm">
+          <div class="perm-title"><span class="swatch" style="background:var(--purple)"></span> Host permission — all websites</div>
+          <p>Color vision deficiency doesn't pause at certain websites, so the correction filter needs to be available everywhere you browse. This permission lets the content script apply color adjustments on any page, in real time. It is not used to read, monitor, log, or transmit anything about the pages you visit — the script only injects a visual filter and reacts to the settings you've chosen.</p>
+        </div>
+      </section>
+
+      <section class="card" id="quiz">
+        <div class="card-head">
+          <div class="icon-chip" style="background:var(--teal)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg>
+          </div>
+          <h2>The built-in vision quiz</h2>
+        </div>
+        <p>The popup includes an optional Ishihara‑style plate quiz to help estimate your color vision profile. It runs <strong>entirely inside the popup</strong> — your answers are held only in memory while you take it and are discarded the moment you close the popup.</p>
+        <p>If you choose to tap "Apply result," the quiz's suggested mode, filter type, and intensity are saved the same way any manual setting change would be — locally, via <code>chrome.storage.sync</code>. Your individual plate‑by‑plate answers are never saved or sent anywhere, by us or anyone else.</p>
+      </section>
+
+      <section class="card" id="storage">
+        <div class="card-head">
+          <div class="icon-chip" style="background:var(--green)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h2>Storage &amp; security</h2>
+        </div>
+        <p>There is no server behind Colorblind-Tune. We don't operate one, so there's no database of user settings for us to lose, sell, leak, or be subpoenaed for.</p>
+        <p>The only data that exists is three small values — your color mode, filter type, and intensity — stored through Chrome's own <code>storage.sync</code> API. That data is encrypted in transit and at rest by Google as part of your Chrome sync, the same mechanism used for your bookmarks or saved passwords, and is never routed through infrastructure we control.</p>
+        <p>No remote code is loaded by this extension — every script that runs is bundled directly in the package you installed and reviewed by the Chrome Web Store.</p>
+      </section>
+
+      <section class="card" id="third-parties">
+        <div class="card-head">
+          <div class="icon-chip" style="background:var(--yellow)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="4"/><path d="M2 21v-1a6 6 0 0 1 6-6h2a6 6 0 0 1 6 6v1"/><path d="M17 11a4 4 0 1 0 0-8"/><path d="M23 21v-1a6 6 0 0 0-4-5.65"/><line x1="3" y1="3" x2="21" y2="21"/></svg>
+          </div>
+          <h2>Third parties</h2>
+        </div>
+        <p>Colorblind-Tune does not integrate with analytics platforms, advertising networks, or any third‑party service. It makes no network requests of its own. We do not sell, rent, or transfer any user data to third parties, and we don't use data for any purpose outside the extension's single stated purpose — because no data is collected in the first place.</p>
+      </section>
+
+      <section class="card" id="children">
+        <div class="card-head">
+          <div class="icon-chip" style="background:var(--purple)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+          </div>
+          <h2>Children's privacy</h2>
+        </div>
+        <p>Colorblind-Tune is not directed at children under 13 and does not knowingly collect information from anyone, regardless of age — largely because it doesn't collect information from anyone at all.</p>
+      </section>
+
+      <section class="card" id="changes">
+        <div class="card-head">
+          <div class="icon-chip" style="background:var(--blue)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg>
+          </div>
+          <h2>Changes to this policy</h2>
+        </div>
+        <p>If Colorblind-Tune's data practices ever change, this page will be updated first, and the "Last updated" date at the top will change to reflect it. Continued use of the extension after an update means you accept the revised policy.</p>
+      </section>
+
+      <section class="card" id="contact">
+        <div class="card-head">
+          <div class="icon-chip" style="background:var(--red)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          </div>
+          <h2>Contact</h2>
+        </div>
+        <p>Questions about this policy or how Colorblind-Tune works? Reach the developer directly:</p>
+        <a class="btn btn-primary" href="mailto:aaronaajit@gmail.com">aaronaajit@gmail.com</a>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+<footer>
+  <a class="brand" href="#top">
+    <img src="assets/icon.png" alt="Colorblind-Tune icon" style="width:28px;height:28px;">
+    Colorblind-Tune
+  </a>
+  <p>A browser extension that corrects and simulates color vision deficiency — locally, privately, on-device.</p>
+  <div class="foot-links">
+    <a href="#overview">Overview</a>
+    <a href="#permissions">Permissions</a>
+    <a href="#storage">Storage</a>
+    <a href="mailto:aaronaajit@gmail.com">Contact</a>
+  </div>
+  <div class="copyright">© 2026 Colorblind-Tune. All rights reserved.</div>
+</footer>
+
+<button id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+</button>
+
+<script src="script.js"></script>
 </body>
 </html>
