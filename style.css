@@ -107,7 +107,8 @@ nav.links a.active{ color: var(--text); background: var(--bg-soft); }
   padding: 7px 16px 7px 8px; border-radius:999px; font-size:.8rem; font-weight:700;
   margin-bottom: 28px; color: var(--text-dim);
 }
-.eyebrow .dot{ width:8px; height:8px; border-radius:50%; background: var(--wheel); }
+.eyebrow .dot{ width:8px; height:8px; border-radius:50%; background: var(--wheel); flex:none; }
+.eyebrow-text{ min-width:0; }
 
 .wheel-mark{
   position:relative; z-index:1; width:128px; height:128px; margin: 0 auto 32px;
